@@ -18,7 +18,7 @@ _start:
   int 0x80
 
   mov eax, 3
-  mov ebx, 2
+  mov ebx, 0
   mov ecx, num
   mov edx, 5
   int 0x80
